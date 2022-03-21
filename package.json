@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "dependencies": {
+        "@mdi/font": "^6.5.95",
+        "ace-builds": "^1.2.9",
+        "bootstrap": "^5.1.3",
+        "gulp-sourcemaps": "^3.0.0",
+        "jquery": "^3.4.1",
+        "jquery-mapael": "^2.2.0",
+        "jquery-steps": "1.1.0",
+        "jsgrid": "1.5.3",
+        "jvectormap": "2.0.4",
+        "merge-stream": "^2.0.0",
+        "owl-carousel-2": "0.0.3",
+        "perfect-scrollbar": "^1.4.0",
+        "popper.js": "^1.15.0",
+        "puse-icons-feather": "^1.1.0",
+        "rickshaw": "^1.6.6"
+    },
+    "devDependencies": {
+        "axios": "^0.26.1",
+        "compass-mixins": "^0.12.11",
+        "gulp": "^4.0.2",
+        "gulp-sass": "^5.1.0",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "minimatch": "5.0",
+        "node-sass": "^7.0.1",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.49.9",
+        "sass-loader": "^12.1.0"
+    }
+}
